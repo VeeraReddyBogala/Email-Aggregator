@@ -212,10 +212,6 @@ tsx watch automatically reloads on file changes during development.
 - Async/await for asynchronous operations
 - Type-safe with strict TypeScript config (noUncheckedIndexedAccess, exactOptionalPropertyTypes)
 
-## License
-
-MIT
-
 ## Author
 
 Veera Reddy
