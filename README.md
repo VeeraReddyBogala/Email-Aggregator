@@ -1,4 +1,4 @@
-# ReachInbox Onebox
+# Emial Aggregator
 
 AI-Powered Email Onebox with Real-Time IMAP Sync, Elasticsearch, and RAG
 
@@ -219,6 +219,4 @@ MIT
 ## Author
 
 Veera Reddy
-"# Email-Aggregator" 
-"# Email-Aggregator" 
-"# Email-Aggregator" 
+
