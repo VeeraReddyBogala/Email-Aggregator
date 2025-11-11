@@ -1,0 +1,56 @@
+{
+  "name": "reachinbox-onebox",
+  "version": "1.0.0",
+  "description": "AI-Powered Email Onebox with Real-Time IMAP Sync, Elasticsearch, and RAG",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "tsx watch src/server.ts",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "docker:logs": "docker-compose logs -f",
+    "test": "echo \"Run tests here\"",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "email",
+    "imap",
+    "ai",
+    "rag",
+    "elasticsearch"
+  ],
+  "author": "Teja Vardhan Reddy",
+  "license": "MIT",
+  "type": "module",
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/html-to-text": "^9.0.4",
+    "@types/mailparser": "^3.4.6",
+    "@types/node": "^24.8.1",
+    "@types/node-imap": "^0.9.3",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "^9.1.1",
+    "@google/generative-ai": "^0.24.1",
+    "@qdrant/js-client-rest": "^1.15.1",
+    "axios": "^1.12.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "html-to-text": "^9.0.5",
+    "imap-simple": "^5.1.0",
+    "mailparser": "^3.7.5",
+    "node-imap": "^0.9.6",
+    "uuid": "^13.0.0"
+  }
+}
